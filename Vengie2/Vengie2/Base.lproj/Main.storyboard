@@ -21,8 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="lWG-ib-vm8">
-                                <rect key="frame" x="0.0" y="0.0" width="374" height="667"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="startMockup" translatesAutoresizingMaskIntoConstraints="NO" id="dsH-pS-LAA">
+                                <rect key="frame" x="0.0" y="0.0" width="373" height="665"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JgK-M2-ehz">
@@ -48,7 +48,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="694" y="167"/>
+            <point key="canvasLocation" x="693.60000000000002" y="166.8665667166417"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lcC-S5-q13">
@@ -62,8 +62,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="UVX-uZ-t2p">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="668"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="recordMockup" translatesAutoresizingMaskIntoConstraints="NO" id="sDf-g8-8bj">
+                                <rect key="frame" x="0.0" y="0.0" width="374" height="666"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4a-Dw-H0n">
@@ -86,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UY1-rG-Ekp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1433" y="870"/>
+            <point key="canvasLocation" x="1432.8" y="869.41529235382313"/>
         </scene>
         <!--설정-->
         <scene sceneID="kWG-zZ-1Om">
@@ -340,18 +340,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="22N-WA-XuL">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="calendarMockup" translatesAutoresizingMaskIntoConstraints="NO" id="b2q-eV-oz7">
+                                <rect key="frame" x="-18" y="1" width="393" height="666"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8e8-5G-QOt">
+                                <rect key="frame" x="113" y="359" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <datePicker contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="GnI-Ic-KsX">
+                                <rect key="frame" x="-24" y="379" width="404" height="94"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <date key="date" timeIntervalSinceReferenceDate="505890877.24333799">
+                                    <!--2017-01-12 05:14:37 +0000-->
+                                </date>
+                                <date key="minimumDate" timeIntervalSinceReferenceDate="284036400">
+                                    <!--2010-01-01 11:00:00 +0000-->
+                                </date>
+                                <date key="maximumDate" timeIntervalSinceReferenceDate="946638000">
+                                    <!--2030-12-31 11:00:00 +0000-->
+                                </date>
+                                <locale key="locale" localeIdentifier="ko_KR"/>
+                            </datePicker>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8e8-5G-QOt" firstAttribute="leading" secondItem="GnI-Ic-KsX" secondAttribute="leading" id="eXt-dE-DYD"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Calendar" id="nBy-g4-ROQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sOP-KP-qWA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="694" y="958"/>
+            <point key="canvasLocation" x="693.60000000000002" y="957.57121439280365"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vWk-yI-AwO">
@@ -373,10 +395,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1" width="265" height="473"/>
-        <image name="2" width="263" height="468"/>
-        <image name="3" width="268" height="477"/>
         <image name="5" width="267" height="477"/>
         <image name="Settings-50" width="25" height="25"/>
+        <image name="calendarMockup" width="280" height="474"/>
+        <image name="recordMockup" width="263" height="468"/>
+        <image name="startMockup" width="263" height="469"/>
     </resources>
 </document>
