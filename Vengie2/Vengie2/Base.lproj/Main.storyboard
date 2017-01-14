@@ -32,10 +32,26 @@
                                     <segue destination="Lyd-pP-FKT" kind="presentation" id="rwA-1V-lwu"/>
                                 </connections>
                             </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Chevron Filled-50" translatesAutoresizingMaskIntoConstraints="NO" id="kH2-Se-5oG">
-                                <rect key="frame" x="296" y="593" width="25" height="25"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="Chevron Filled-100" translatesAutoresizingMaskIntoConstraints="NO" id="9mi-ro-OgT">
+                                <rect key="frame" x="286" y="586" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbI-4K-rXV">
+                                <rect key="frame" x="286" y="586" width="47" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="a6e-8F-RnU" kind="show" animates="NO" id="8z7-ZN-zc7"/>
+                                </connections>
+                            </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nr1-Yu-k7D">
+                                <rect key="frame" x="-2" y="616" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="pwa-MZ-lC7"/>
+                                    <tabBarItem systemItem="more" id="Ftm-bN-L90"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -158,7 +174,7 @@
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tbG-XN-Bh3" id="8YG-0Z-IDe">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E0Y-uj-2bw">
@@ -180,7 +196,7 @@
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XRl-3c-Abg" id="RN3-0M-Tlv">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="VSo-6K-gIp">
@@ -492,10 +508,13 @@
     </scenes>
     <resources>
         <image name="5" width="267" height="477"/>
-        <image name="Chevron Filled-50" width="25" height="25"/>
+        <image name="Chevron Filled-100" width="100" height="100"/>
         <image name="Settings-50" width="25" height="25"/>
         <image name="calendarMockup" width="280" height="474"/>
         <image name="recordMockup" width="263" height="468"/>
         <image name="startMockup" width="263" height="469"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="8z7-ZN-zc7"/>
+    </inferredMetricsTieBreakers>
 </document>
