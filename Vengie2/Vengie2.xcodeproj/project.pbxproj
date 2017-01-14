@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660C0DD11E28B39B00456C98 /* CHContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660C0DC71E28B39B00456C98 /* CHContentViewController.swift */; };
+		660C0DD21E28B39B00456C98 /* CHControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660C0DC81E28B39B00456C98 /* CHControls.swift */; };
+		660C0DD31E28B39B00456C98 /* CHModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660C0DC91E28B39B00456C98 /* CHModalViewController.swift */; };
+		660C0DD41E28B39B00456C98 /* CHPagingScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660C0DCA1E28B39B00456C98 /* CHPagingScrollViewController.swift */; };
+		660C0DD51E28B39B00456C98 /* CHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660C0DCB1E28B39B00456C98 /* CHPickerViewController.swift */; };
+		660C0DD61E28B39B00456C98 /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660C0DCC1E28B39B00456C98 /* DrawingCanvasView.swift */; };
+		660C0DD71E28B39B00456C98 /* FIlters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660C0DCD1E28B39B00456C98 /* FIlters.swift */; };
+		660C0DD81E28B39B00456C98 /* NavigationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660C0DCE1E28B39B00456C98 /* NavigationControllers.swift */; };
+		660C0DD91E28B39B00456C98 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660C0DCF1E28B39B00456C98 /* RecordButton.swift */; };
 		6612BC391E24689E00A194A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612BC381E24689E00A194A7 /* AppDelegate.swift */; };
 		6612BC3B1E24689E00A194A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612BC3A1E24689E00A194A7 /* ViewController.swift */; };
-		6612BC3E1E24689E00A194A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6612BC3C1E24689E00A194A7 /* Main.storyboard */; };
 		6612BC411E24689E00A194A7 /* Vengie2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6612BC3F1E24689E00A194A7 /* Vengie2.xcdatamodeld */; };
 		6612BC431E24689E00A194A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6612BC421E24689E00A194A7 /* Assets.xcassets */; };
 		6612BC461E24689E00A194A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6612BC441E24689E00A194A7 /* LaunchScreen.storyboard */; };
@@ -38,10 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		660C0DC71E28B39B00456C98 /* CHContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHContentViewController.swift; sourceTree = "<group>"; };
+		660C0DC81E28B39B00456C98 /* CHControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHControls.swift; sourceTree = "<group>"; };
+		660C0DC91E28B39B00456C98 /* CHModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHModalViewController.swift; sourceTree = "<group>"; };
+		660C0DCA1E28B39B00456C98 /* CHPagingScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHPagingScrollViewController.swift; sourceTree = "<group>"; };
+		660C0DCB1E28B39B00456C98 /* CHPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHPickerViewController.swift; sourceTree = "<group>"; };
+		660C0DCC1E28B39B00456C98 /* DrawingCanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
+		660C0DCD1E28B39B00456C98 /* FIlters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIlters.swift; sourceTree = "<group>"; };
+		660C0DCE1E28B39B00456C98 /* NavigationControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllers.swift; sourceTree = "<group>"; };
+		660C0DCF1E28B39B00456C98 /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
 		6612BC351E24689E00A194A7 /* Vengie2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vengie2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6612BC381E24689E00A194A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6612BC3A1E24689E00A194A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6612BC3D1E24689E00A194A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6612BC401E24689E00A194A7 /* Vengie2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vengie2.xcdatamodel; sourceTree = "<group>"; };
 		6612BC421E24689E00A194A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6612BC451E24689E00A194A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,9 +96,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		660C0DC61E28B39B00456C98 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				660C0DC71E28B39B00456C98 /* CHContentViewController.swift */,
+				660C0DC81E28B39B00456C98 /* CHControls.swift */,
+				660C0DC91E28B39B00456C98 /* CHModalViewController.swift */,
+				660C0DCA1E28B39B00456C98 /* CHPagingScrollViewController.swift */,
+				660C0DCB1E28B39B00456C98 /* CHPickerViewController.swift */,
+				660C0DCC1E28B39B00456C98 /* DrawingCanvasView.swift */,
+				660C0DCD1E28B39B00456C98 /* FIlters.swift */,
+				660C0DCE1E28B39B00456C98 /* NavigationControllers.swift */,
+				660C0DCF1E28B39B00456C98 /* RecordButton.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		6612BC2C1E24689E00A194A7 = {
 			isa = PBXGroup;
 			children = (
+				660C0DC61E28B39B00456C98 /* Sources */,
 				6612BC371E24689E00A194A7 /* Vengie2 */,
 				6612BC4F1E24689F00A194A7 /* Vengie2Tests */,
 				6612BC5A1E24689F00A194A7 /* Vengie2UITests */,
@@ -106,7 +139,6 @@
 				6612BC381E24689E00A194A7 /* AppDelegate.swift */,
 				6612BC3A1E24689E00A194A7 /* ViewController.swift */,
 				66C467ED1E25DF9600FC355A /* UIViewController+Navigation.swift */,
-				6612BC3C1E24689E00A194A7 /* Main.storyboard */,
 				6612BC421E24689E00A194A7 /* Assets.xcassets */,
 				6612BC441E24689E00A194A7 /* LaunchScreen.storyboard */,
 				6612BC471E24689E00A194A7 /* Info.plist */,
@@ -242,7 +274,6 @@
 			files = (
 				6612BC461E24689E00A194A7 /* LaunchScreen.storyboard in Resources */,
 				6612BC431E24689E00A194A7 /* Assets.xcassets in Resources */,
-				6612BC3E1E24689E00A194A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +299,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				66C467EE1E25DF9600FC355A /* UIViewController+Navigation.swift in Sources */,
+				660C0DD81E28B39B00456C98 /* NavigationControllers.swift in Sources */,
 				6612BC411E24689E00A194A7 /* Vengie2.xcdatamodeld in Sources */,
+				660C0DD71E28B39B00456C98 /* FIlters.swift in Sources */,
+				660C0DD91E28B39B00456C98 /* RecordButton.swift in Sources */,
+				660C0DD11E28B39B00456C98 /* CHContentViewController.swift in Sources */,
+				660C0DD51E28B39B00456C98 /* CHPickerViewController.swift in Sources */,
+				660C0DD31E28B39B00456C98 /* CHModalViewController.swift in Sources */,
+				660C0DD61E28B39B00456C98 /* DrawingCanvasView.swift in Sources */,
+				660C0DD41E28B39B00456C98 /* CHPagingScrollViewController.swift in Sources */,
 				6612BC3B1E24689E00A194A7 /* ViewController.swift in Sources */,
+				660C0DD21E28B39B00456C98 /* CHControls.swift in Sources */,
 				6612BC391E24689E00A194A7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,14 +348,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6612BC3C1E24689E00A194A7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6612BC3D1E24689E00A194A7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6612BC441E24689E00A194A7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
