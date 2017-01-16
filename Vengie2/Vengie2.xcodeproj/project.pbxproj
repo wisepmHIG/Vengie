@@ -69,7 +69,7 @@
 		6612BC571E24689F00A194A7 /* Vengie2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vengie2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6612BC5B1E24689F00A194A7 /* Vengie2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vengie2UITests.swift; sourceTree = "<group>"; };
 		6612BC5D1E24689F00A194A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66C467ED1E25DF9600FC355A /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		66C467ED1E25DF9600FC355A /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Navigation.swift"; path = "../Vengie2/UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		66F480BF1E2A43DF002F103A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +110,7 @@
 				660C0DCD1E28B39B00456C98 /* FIlters.swift */,
 				660C0DCE1E28B39B00456C98 /* NavigationControllers.swift */,
 				660C0DCF1E28B39B00456C98 /* RecordButton.swift */,
+				66C467ED1E25DF9600FC355A /* UIViewController+Navigation.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -140,7 +141,6 @@
 			children = (
 				6612BC381E24689E00A194A7 /* AppDelegate.swift */,
 				6612BC3A1E24689E00A194A7 /* ViewController.swift */,
-				66C467ED1E25DF9600FC355A /* UIViewController+Navigation.swift */,
 				6612BC421E24689E00A194A7 /* Assets.xcassets */,
 				66F480BE1E2A43DF002F103A /* Main.storyboard */,
 				6612BC441E24689E00A194A7 /* LaunchScreen.storyboard */,
